@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Language and Computation Lab
+email: kbicknell@northwestern.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Research in the Language and Computation Lab 
+  investigates how the human brain solves the 
+  computational problems of language comprehension, 
+  production, and acquisition. We use techniques 
+  from machine learning, computational linguistics, 
+  and statistics to build computational models of 
+  such language behaviors. We test these models 
+  by analyzing large behavioral and neuroscientific 
+  datasets, and also by gathering new empirical data, 
+  especially via eye tracking and crowdsourcing.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "lcl.northwestern.edu" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: css
+  style: nested
