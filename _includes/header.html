@@ -1,12 +1,13 @@
 <header>
-  <div class="logo"></div>
+	<a href="{{site.home}}">
+		<div class="logo"></div>
+	</a>	
 
   
 <nav>
-  <a href="">projects</a>
-  <a href="">papers</a>
-  <a href="">people</a>
-  <a href="">contact</a>
+	{% for nav in site.nav %}
+		<a href="{{ nav.href }}"> {{nav.name}} </a>
+	{% endfor %}
 </nav>
 
 </header>
