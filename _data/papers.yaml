@@ -1,0 +1,30 @@
+- year: 2016
+  title: What is the letter a?
+  authors: John Doe, Jane Dee
+  publication: IEEE
+  description: Kind of the same as the other one.
+  pdf: '../assets/papers/Lee2003.pdf'
+
+- year: 2014
+  title: What is the letter c?
+  authors: Jane Dee, John Doe
+  publication: ArviX
+  description: Lorem Ipsum ...
+
+- year: 2014
+  title: What is the letter d?
+  authors: Jane Dee, John Doe
+  publication: ArviX
+  description: Lorem Ipsum ...
+
+- year: 2016
+  title: What is the letter f?
+  authors: Jane Dee, John Doe
+  publication: ArviX
+  description: Lorem Ipsum ...
+
+- year: 2015
+  title: What is the letter g?
+  authors: Jane Dee, John Doe
+  publication: ArviX
+  description: Lorem Ipsum ...
