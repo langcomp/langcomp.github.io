@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% assign num = 0 %}
+{% for proj in site.data.projects %}
+	<div class="card">
+		<h2> {% increment num %} </h2>
+	</div>
+
+	<div class="shadow">
+		<div class="gigantic"> {{proj.name}}</div>
+		<h3> {{proj.description}} </h3>
+		<a href="{{proj.project_link}}"> links </a>
+	</div>
+{% endfor%}
+
+<div class="box">
+
+</div>
+

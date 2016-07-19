@@ -1,0 +1,42 @@
+header
+	height: 120px
+	background: #ccc
+
+	.logo
+		height: 100px
+		width: 100px
+		background: #999
+		float: left
+		margin-left: 8%
+		margin-top: 10px
+
+	nav
+		float: right
+		margin: 6% 8% 2.5% 0%
+
+		a
+			display: inline-block
+			margin-left: 20px
+			
+			color: rgba(0,0,0, 0.7)
+			font:
+				size: 16px
+				weight: 500
+			letter-spacing: 0.05em
+				
+			&:hover
+				color: rgba(0,0,0,1)
+
+@media (max-width: 690px)
+	header
+		height: 15%
+		.logo
+			display: none
+
+		nav
+			float: none
+			text-align: center
+			margin-top: 0px
+			line-height: 1.3em
+			a 
+				padding-top: 5%

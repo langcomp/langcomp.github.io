@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class = "papers">
+	<p> Header for papers section... Just to make the top feel less empty but it doesn't make much of a difference to me. Thoughts? </p>
+
+	{% assign ordered = ((site.data.papers | sort:"year" ) | reverse ) %}
+	{% assign groups = (ordered | group_by:"year") %}
+	{% for grp in groups %}
+		<hr>
+		<h3> {{ grp.name }} </h3>
+		{% for item in grp.items %}
+			<div class = "paper-obj">
+				<h4>{{item.title}} </h4>
+				<p> {{item.authors}}<br> {{item.description}}<br><i> {{item.publication}}</i><p>
+				<a href="{{item.pdf}}"> pdf </a>
+			</div>
+		{% endfor %}
+	{% endfor %}
+
+</div>
