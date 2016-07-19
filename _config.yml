@@ -7,7 +7,7 @@
 
 # Site settings
 title: Language and Computation Lab
-email: kbicknell@northwestern.edu
+email: "kbicknell@northwestern.edu"
 description: > # this means to ignore newlines until "baseurl:"
   Research in the Language and Computation Lab 
   investigates how the human brain solves the 
@@ -21,11 +21,23 @@ description: > # this means to ignore newlines until "baseurl:"
   especially via eye tracking and crowdsourcing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "lcl.northwestern.edu" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  langcomp
+home: "/"
+
+# Navigation
+nav:
+  - name:           "projects"
+    href:           "/projects"
+  - name:           "papers"
+    href:           "/papers"
+  - name:           "people"
+    href:           "/people"
+  - name:           "updates"
+    href:           "/updates"
+  - name:           "contact"
+    href:           "/contact"
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 sass:
-  sass_dir: css
-  style: nested
+  sass_dir: assets/_sass
