@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% for person in site.data.people %}
+	<div class="person">
+		<div class="face-lockup">
+			<div class= "face-img">
+				<img src= "assets/img/{{person.picture}}">
+			</div>
+			<div class="icon-one"></div>
+			<div class="icon-two"></div>
+			<div class="icon-three"></div>
+			<div class="icon-four"></div>
+		</div>
+
+		<div class="name">
+			<h4>{{ person.name }} // {{ person.position}} </h4>
+		</div>
+
+		<div class="about">
+			<div class="background">
+				<h4> BACKGROUND: {{person.background}} </h4>
+			</div>
+
+			<div class="projects">
+				<h4> PROJECT: {{person.projects}}</h4>
+			</div>
+
+			<div class="cv">
+				{% if person.cv != "" %}
+					<a href="assets/pdf/{{person.cv}}">Curriculum Vitae</a>
+				{% endif %}
+			</div>
+
+			<div class="links">
+				<h5> 
+				{% for link in person.links %}
+					<a href="http://www.{{link}}"> {{link}}</a>
+				{% endfor %}
+				</h5>
+			</div>
+
+			<div class="contact">
+				<h5> 
+				<a href="mailto:{{ person.contact.email }}"> {{ person.contact.email }} </a> </h5>
+				<p> {{ person.contact.phone }}</p>
+			</div>
+
+		</div>
+	</div>
+{% endfor %}
