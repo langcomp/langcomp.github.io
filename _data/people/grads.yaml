@@ -1,0 +1,28 @@
+- name: Fake Person
+  position: Graduate Student
+  order: 2
+  picture: "linguist.jpg"
+  permalink: ''
+  # icon_one:
+  background: >
+    Lorem ipsum dolor sit amet, consectetuer 
+    adipiscing elit. Aenean commodo ligula eget 
+    dolor. Aenean massa. Cum sociis natoque 
+    penatibus et magnis dis parturient montes, 
+    nascetur ridiculus mus. Donec quam felis, 
+    ultricies nec, pellentesque eu, pretium quis, sem. 
+
+  projects: >
+   Curabitur ullamcorper ultricies nisi. Nam 
+   eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+   condimentum rhoncus, sem quam semper libero, sit amet
+   adipiscing sem neque sed ipsum. 
+  cv: "Lee2003.pdf"   #if you do have any of the following, leave as ""
+  links: "yahoo.com"
+  contact:
+    phone: (630) 444 5555
+    email: dummy@gmail.com
+
+- name: Person 3
+  position: Graduate Student
+  picture: 'guy.jpeg'

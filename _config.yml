@@ -32,8 +32,8 @@ nav:
     href:           "/papers"
   - name:           "people"
     href:           "/people"
-  - name:           "updates"
-    href:           "/updates"
+  # - name:           "updates"
+  #   href:           "/updates"
   - name:           "contact"
     href:           "/contact"
 

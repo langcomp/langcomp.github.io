@@ -1,0 +1,36 @@
+<tr>
+	<td background="assets/img/{{person.picture}}"></td>
+	<td>
+		<div class="about">
+			<h3>{{person.name}}</h3>
+			<div class="background">
+				<p> <strong> background: </strong> {{person.background}} </p>
+			</div>
+
+			<div class="projects">
+				<p> <strong> project: </strong>  {{person.projects}}</p>
+			</div>
+
+			<div class="cv">
+				<h5>
+				{% if person.cv%}
+					<a href="assets/pdfs/{{person.cv}}">curriculum vitae</a>
+				{% endif %}
+				</h5>
+			</div>
+
+			<div class="links">
+				<h5> 
+				{% for link in person.links %}
+					<a href="http://www.{{link}}"> {{link}}</a>
+				{% endfor %}
+				</h5>
+			</div>
+
+			<div class="contact">
+				<h5> 
+				<a href="mailto:{{ person.contact.email }}"> {{ person.contact.email }} </a> </h5>
+				<p> {{ person.contact.phone }}</p>
+			</div>
+	</td>
+</tr>

@@ -3,7 +3,7 @@
   authors: John Doe, Jane Dee
   publication: IEEE
   description: Kind of the same as the other one.
-  pdf: '../assets/papers/Lee2003.pdf'
+  pdf: 'Lee2003.pdf'
 
 - year: 2014
   title: What is the letter c?

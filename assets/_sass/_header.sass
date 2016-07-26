@@ -1,11 +1,14 @@
 header
 	height: 120px
-	background: #ccc
+	background: lighten($bgcolor, 30%)
 
 	.logo
+		text-align: center
+		h1
+			padding-top: 20px
 		height: 100px
 		width: 100px
-		background: #999
+		background: lighten($selectionColor,40%)
 		float: left
 		margin-left: 8%
 		margin-top: 10px
@@ -25,7 +28,7 @@ header
 			letter-spacing: 0.05em
 				
 			&:hover
-				color: rgba(0,0,0,1)
+				color: $accent-light
 
 @media (max-width: 690px)
 	header

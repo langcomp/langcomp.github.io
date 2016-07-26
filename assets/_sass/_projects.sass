@@ -1,12 +1,19 @@
-.card
+[id^=shadow]
+	position: absolute
+	display: none
+[id^=card]
 	width: 100px
 	height: 100px
-	background-color: rgba(63, 127, 191, 0.5)
+	background-color: $selectionColor
 	display: inline-block
 	h2
 		margin-left: 15px
 	&:hover
-		background-color: rgba(63, 127, 191, 0.2) 
+		background-color: $bgcolor
+		[id^=shadow]
+			position: relative
+			display: visible
+
 @media (max-width: 690px)
 	.card
 		width: 30%
@@ -16,13 +23,13 @@
 		margin-top: 10px
 
 
-.shadow
-	display: none
+
 .box
 	max-width: 100%
 	min-height: 55vh
 	margin-top: 25px
+	position: relative
 	border:
 		style: solid
 		width: 10px
-		color: rgba(63, 127, 191, 0.5)
+		color: $selectionColor

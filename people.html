@@ -2,51 +2,55 @@
 layout: default
 ---
 
-{% for person in site.data.people %}
-	<div class="person">
-		<div class="face-lockup">
-			<div class= "face-img">
-				<img src= "assets/img/{{person.picture}}">
-			</div>
-			<div class="icon-one"></div>
-			<div class="icon-two"></div>
-			<div class="icon-three"></div>
-			<div class="icon-four"></div>
-		</div>
 
-		<div class="name">
-			<h4>{{ person.name }} // {{ person.position}} </h4>
-		</div>
+<div class="subnav">
+	<a href="#section-1"> Principal Investigators </a>
+	<a href="#section-2"> Postdoctoral Students </a>
+	<a href="#section-3">Graduate Students</a>
+	<a href="#section-4">Undergraduate Students</a>
+<!-- 	<a href="#section-5">Alumni</a>
+	<a href="#section-6">Collaborators</a> -->
+</div>
 
-		<div class="about">
-			<div class="background">
-				<h4> BACKGROUND: {{person.background}} </h4>
-			</div>
+<div id="section-1">
+	<h2> Principal Investigator</h2>
+	<table>
+		{% for person in site.data.people.pi %}
+			{% include parsed_person.html %}
+		{% endfor %}
+	</table>
 
-			<div class="projects">
-				<h4> PROJECT: {{person.projects}}</h4>
-			</div>
+</div>
 
-			<div class="cv">
-				{% if person.cv != "" %}
-					<a href="assets/pdf/{{person.cv}}">Curriculum Vitae</a>
-				{% endif %}
-			</div>
+{% if site.data.people.postdocs %}
+<div id="section-2">
+	<h2>Postdoctoral Fellows </h2>
+	<table>
+		{% for person in site.data.people.postdocs %}				{% include parsed_person.html %}
+		{% endfor %}
+	</table>
+</div>
+{% endif %}
 
-			<div class="links">
-				<h5> 
-				{% for link in person.links %}
-					<a href="http://www.{{link}}"> {{link}}</a>
-				{% endfor %}
-				</h5>
-			</div>
 
-			<div class="contact">
-				<h5> 
-				<a href="mailto:{{ person.contact.email }}"> {{ person.contact.email }} </a> </h5>
-				<p> {{ person.contact.phone }}</p>
-			</div>
+{% if site.data.people.grads %}
+<div id="section-3">
+	<h2>Graduate Students</h2>
+	<table>
+		{% for person in site.data.people.grads %}
+			{% include parsed_person.html %}
+		{% endfor %}
+	</table>
+</div>
+{% endif %}
 
-		</div>
-	</div>
-{% endfor %}
+{% if site.data.people.undergrads %}
+<div id="section-4">
+	<h2>Undergraduate Students</h2>
+	<table>
+		{% for person in site.data.people.undergrads %}
+			{% include parsed_person.html %}
+		{% endfor %}
+	</table>
+</div>
+{% endif %}
