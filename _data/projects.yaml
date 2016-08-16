@@ -1,55 +1,22 @@
 - name: Gabor
-  picture: 
+  picture: filter2D.jpeg
   researchers: 
-    - name: "Cary Murray"
-      email: 'carolynmurray2017@u.northwestern.edu'
+    - name: Cary Murray
+      email: carolynmurray2017@u.northwestern.edu
   description: >
     Vis eu assum mucius salutatus, decore
      electram scribentur vis no. Eum id 
      sint aliquando, est ceteros imperdiet ei. 
      At voluptua temporibus deterruisset mel, 
      fabellas mandamus quaerendum ut duo. 
-  project_link: 'https://github.com/langcomp/gabors'
-  include: gabors.md
-  
+  project_link: gabors.md
+  git_link: 'https://github.com/langcomp/gabors'
 
-- name: Gabor
-  picture: 
-  researchers: 
-    - name: "Cary Murray"
-      email: 'carolynmurray2017@u.northwestern.edu'
+- name: Speech Recognition Effort
+  picture: speech_recognition.jpg
+  researchers:
+    - name: Fake Person
+      email: dummy@gmail.com
   description: >
-    Vis eu assum mucius salutatus, decore
-     electram scribentur vis no. Eum id 
-     sint aliquando, est ceteros imperdiet ei. 
-     At voluptua temporibus deterruisset mel, 
-     fabellas mandamus quaerendum ut duo. 
-  project_link: 'https://github.com/langcomp/gabors'
-
-
-- name: Gabor
-  picture: 
-  researchers: 
-    - name: "Cary Murray"
-      email: 'carolynmurray2017@u.northwestern.edu'
-  description: >
-    Vis eu assum mucius salutatus, decore
-     electram scribentur vis no. Eum id 
-     sint aliquando, est ceteros imperdiet ei. 
-     At voluptua temporibus deterruisset mel, 
-     fabellas mandamus quaerendum ut duo. 
-  project_link: 'https://github.com/langcomp/gabors'
-
-
-- name: Gabor
-  picture: 
-  researchers: 
-    - name: "Cary Murray"
-      email: 'carolynmurray2017@u.northwestern.edu'
-  description: >
-    Vis eu assum mucius salutatus, decore
-     electram scribentur vis no. Eum id 
-     sint aliquando, est ceteros imperdiet ei. 
-     At voluptua temporibus deterruisset mel, 
-     fabellas mandamus quaerendum ut duo. 
-  project_link: 'https://github.com/langcomp/gabors'
+    ;ldkjfa;lkdjfaldkfjad aldkfja dslkfj
+  project_link: 'speech_recognition.md'

@@ -1,45 +1,52 @@
 header
-	height: 120px
+	height: 110px
 	background: lighten($bgcolor, 30%)
 
-	.logo
-		text-align: center
-		h1
-			padding-top: 20px
-		height: 100px
-		width: 100px
-		background: lighten($selectionColor,40%)
-		float: left
-		margin-left: 8%
-		margin-top: 10px
+	.head-content 
+		max-width: $max-width
+		margin: 0px auto
 
-	nav
-		float: right
-		margin: 6% 8% 2.5% 0%
+		.logo
+			height: 70%
+			width: auto
+			float: left
+			margin: 5px 0px 0px 3px
+		nav
+			a
+				display: inline-block
+				margin-left: 20px
+				color: $textColor
+				font:
+					size: 16px
+					weight: 500
+				letter-spacing: 0.05em
+					
+				&:hover
+					color: $accent-light
+@media (min-width: 600px)
+	.head-content	
+		nav
+			float: right
+			margin: 45px 3px 0px 0px
 
-		a
-			display: inline-block
-			margin-left: 20px
-			
-			color: rgba(0,0,0, 0.7)
-			font:
-				size: 16px
-				weight: 500
-			letter-spacing: 0.05em
-				
-			&:hover
-				color: $accent-light
 
-@media (max-width: 690px)
-	header
-		height: 15%
+@media (max-width: 600px)
+	.head-content
 		.logo
 			display: none
-
-		nav
-			float: none
-			text-align: center
-			margin-top: 0px
-			line-height: 1.3em
-			a 
-				padding-top: 5%
+	nav
+		float: none
+		height: 100%
+		text-align: center
+		margin: auto
+		a
+			padding: 10px 10px 
+			
+	// nav
+	// 	margin: auto
+	// 	float: none
+	// 	text-align: center
+	// 	margin-top: 0px
+		// line-height: 1.3em
+// 			a 
+// 				padding-top: 5%

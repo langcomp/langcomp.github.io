@@ -1,0 +1,90 @@
+/*	Typography presets ------------------------------------	 */
+.gigantic, .huge, .large, .bigger, .big, h1, h2, h3, h4, h5, h6 { color: rgba(0, 0, 0, 0.7); font-weight: 400; margin: 0.33em 0em 0.33em 0em; }
+
+.gigantic { font-size: 50px; line-height: 1.09; letter-spacing: 3px; }
+
+.huge, h1 { font-size: 30px; line-height: 1.05; letter-spacing: 2px; }
+
+.large, h2 { font-size: 23px; line-height: 1.14; }
+
+.bigger, h3 { font-size: 19px; line-height: 1.38; }
+
+.big, h4 { font-size: 16px; line-height: 1.38; }
+
+.small, h5 { font-size: 14px; line-height: 1.2; }
+
+h6 { font-size: 13px; line-height: 1.1; }
+
+p { font-size: 12px; }
+
+em { font-style: italic; }
+
+strong { font-weight: bold; }
+
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 10px; height: 0; }
+
+/* Links ------------------------------------	 */
+a { color: #9099a2; text-decoration: none; outline: 0; }
+
+a:hover, a:focus { color: #c8ccd1; }
+
+/* Selection colors (easy to forget) ------------------------------------	 */
+::selection { background: #6d7993; }
+
+::-moz-selection { background: #6d7993; }
+
+img::selection { background: transparent; }
+
+img::-moz-selection { background: transparent; }
+
+body { -webkit-tap-highlight-color: #6d7993; }
+
+/* Basic Styles ------------------------------------	 */
+body { background: #fff; font-family: "Raleway", sans-serif; color: rgba(0, 0, 0, 0.7); -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
+body .page-content { max-width: 800px; margin-top: 20px; margin-left: auto; margin-right: auto; }
+
+header { height: 110px; background: #c8c5d4; }
+header .head-content { max-width: 800px; margin: 0px auto; }
+header .head-content .logo { height: 70%; width: auto; float: left; margin: 5px 0px 0px 3px; }
+header .head-content nav a { display: inline-block; margin-left: 20px; color: rgba(0, 0, 0, 0.7); font-size: 16px; font-weight: 500; letter-spacing: 0.05em; }
+header .head-content nav a:hover { color: #acb3b9; }
+
+@media (min-width: 600px) { .head-content nav { float: right; margin: 45px 3px 0px 0px; } }
+@media (max-width: 600px) { .head-content .logo { display: none; }
+  nav { float: none; height: 100%; text-align: center; margin: auto; }
+  nav a { padding: 10px 10px; } }
+footer { max-width: 800px; margin: auto; height: 50px; }
+footer p { margin: 0px; }
+footer .university { float: left; }
+footer .university svg { height: 15px; width: 15px; }
+footer .lab { float: right; }
+
+#splash { width: 100%; height: 400px; background: url(../assets/img/splash.png) no-repeat center fixed; background-size: cover; opacity: 0.2; }
+
+#about { text-align: center; }
+
+.papers p { margin: 0px 0px 0px 0px; font-weight: 100; line-height: 1.2; }
+.papers h4 { margin: 10px 0px 3px; }
+
+.subnav { width: 100%; }
+.subnav a { margin: auto 4.75% auto 0px; }
+
+[id^=section] h2 { letter-spacing: 4px; padding-top: 20px; }
+
+table { padding-top: 10px; width: 100%; }
+table td.headshot { height: 266.66667px; width: 266.66667px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+table td.info { padding: 0px 15px; }
+
+[id^=shadow] { display: none; }
+
+[id^=card] { width: 150px; height: 150px; display: inline-block; background-size: 100%; }
+[id^=card] h2 { margin-left: 15px; }
+[id^=card]:hover { -webkit-filter: blur(3px); }
+
+#box { max-width: 100%; min-height: 45vh; margin-top: 25px; position: relative; }
+
+@media (max-width: 690px) { [id^=card] { width: 30%; height: 22%; max-width: 100px; max-height: 100px; margin-top: 10px; } }
+.opp-wrap { margin-top: 20px; margin-bottom: 20px; }
+
+.contact-column { width: 40%; display: inline-table; }
+.contact-column p { font-size: 12px; }

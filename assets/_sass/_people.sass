@@ -1,7 +1,8 @@
 .subnav
     width: 100%
     a
-        margin: 5px 25px 5px 0px
+        margin: auto 4.75% auto 0px
+
 [id^=section]
     h2
         letter-spacing: 4px
@@ -10,15 +11,21 @@
 table
     padding-top: 10px
     width: 100%
-    td
-        width: 30%
-        padding: 25px
+    td.headshot
+        height: $max-width/3
+        width: $max-width/3
         background-size: cover
         background-repeat: no-repeat
         background-position: 50% 50%
+    td.info
+        padding: 0px 15px
+
+        // width: 30%
+        // padding: 25px
 
 
-@media (max-width: 650px)
-    table
-        td 
-            background: none
+
+// @media (max-width: 650px)
+//     table
+//         td 
+//             background: none

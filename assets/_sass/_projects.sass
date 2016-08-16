@@ -1,35 +1,25 @@
 [id^=shadow]
-	position: absolute
 	display: none
 [id^=card]
-	width: 100px
-	height: 100px
-	background-color: $selectionColor
+	width: 150px
+	height: 150px
 	display: inline-block
+	background-size: 100% 
 	h2
 		margin-left: 15px
 	&:hover
-		background-color: $bgcolor
-		[id^=shadow]
-			position: relative
-			display: visible
+		-webkit-filter: blur(3px) 
+#box
+	max-width: 100%
+	min-height: 45vh
+	margin-top: 25px
+	position: relative
 
 @media (max-width: 690px)
-	.card
+	[id^=card]
 		width: 30%
 		height: 22%
 		max-width: 100px
 		max-height: 100px
 		margin-top: 10px
 
-
-
-.box
-	max-width: 100%
-	min-height: 55vh
-	margin-top: 25px
-	position: relative
-	border:
-		style: solid
-		width: 10px
-		color: $selectionColor

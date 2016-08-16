@@ -4,9 +4,12 @@ layout: default
 
 
 <div class="subnav">
-	<a href="#section-1"> Principal Investigators </a>
+	<a href="#section-1"> Principal Investigators</a>
+	 |   
 	<a href="#section-2"> Postdoctoral Students </a>
+	 |    
 	<a href="#section-3">Graduate Students</a>
+	 |    
 	<a href="#section-4">Undergraduate Students</a>
 <!-- 	<a href="#section-5">Alumni</a>
 	<a href="#section-6">Collaborators</a> -->
@@ -26,7 +29,8 @@ layout: default
 <div id="section-2">
 	<h2>Postdoctoral Fellows </h2>
 	<table>
-		{% for person in site.data.people.postdocs %}				{% include parsed_person.html %}
+		{% for person in site.data.people.postdocs %}				
+			{% include parsed_person.html %}
 		{% endfor %}
 	</table>
 </div>

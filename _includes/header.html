@@ -1,13 +1,14 @@
 <header>
-	<a href="{{site.home}}">
-		<div class="logo"><h1>LCL</h1></div>
-	</a>	
+	<div class='head-content'>
+		<a href="{{site.home}}">
+			<div class="logo"><img src='/assets/icons/lcl-icon.svg'></div>
+		</a>	
 
-  
-<nav>
-	{% for nav in site.nav %}
-		<a href="{{ nav.href }}"> {{nav.name}} </a>
-	{% endfor %}
-</nav>
+		<nav>
+			{% for nav in site.nav %}
+				<a href="{{ nav.href }}"> {{nav.name}} </a>
+			{% endfor %}
+		</nav>
+	</div>
 
 </header>

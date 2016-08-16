@@ -1,6 +1,6 @@
 <tr>
-	<td background="assets/img/{{person.picture}}"></td>
-	<td>
+	<td class ='headshot' background="assets/img/{{person.picture}}"></td>
+	<td class='info'>
 		<div class="about">
 			<h3>{{person.name}}</h3>
 			<div class="background">
@@ -22,7 +22,7 @@
 			<div class="links">
 				<h5> 
 				{% for link in person.links %}
-					<a href="http://www.{{link}}"> {{link}}</a>
+					<a href="{{link}}"> {{link}}</a>
 				{% endfor %}
 				</h5>
 			</div>
@@ -30,7 +30,6 @@
 			<div class="contact">
 				<h5> 
 				<a href="mailto:{{ person.contact.email }}"> {{ person.contact.email }} </a> </h5>
-				<p> {{ person.contact.phone }}</p>
 			</div>
 	</td>
 </tr>
