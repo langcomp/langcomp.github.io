@@ -25,3 +25,14 @@
 - name: Person 3
   position: Graduate Student
   picture: 'guy.jpeg'
+  
+- name: Yunyan Duan
+  position: Graduate student
+  picture: 'yunyan.jpg'
+  background: >
+    Yunyan is a second-year PhD student in Department of Linguistics at Northwestern University.
+  projects:  Refixation
+  cv: ""   #if you do have any of the following, leave as ""
+  links: ""
+  contact:
+    email: yduan@u.northwestern.edu
