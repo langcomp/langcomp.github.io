@@ -34,9 +34,9 @@
   position: Graduate student
   picture: 'yunyan.jpg'
   background: >
-    Yunyan is a second-year PhD student in Department of Linguistics at Northwestern University.
+    Yunyan is a second-year PhD student in Department of Linguistics at Northwestern University. She is interested in computational psycholinguistics, reading process, and natural language processing.
   projects:  Refixation
   cv: ""   #if you do have any of the following, leave as ""
-  links: ""
+  links: "https://yyd27.github.io"
   contact:
     email: yduan@u.northwestern.edu
