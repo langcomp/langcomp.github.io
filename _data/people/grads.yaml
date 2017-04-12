@@ -22,9 +22,13 @@
   contact:
     email: dummy@gmail.com
 
-- name: Person 3
+- name: Jordan Hosier
   position: Graduate Student
   picture: 'guy.jpeg'
+  background: >
+    Jordan is a second-year PhD student in Department of Linguistics at Northwestern University.
+  projects:  Accent
+  links: ""
   
 - name: Yunyan Duan
   position: Graduate student
