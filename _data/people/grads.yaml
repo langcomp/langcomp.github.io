@@ -40,3 +40,15 @@
   links: "https://yyd27.github.io"
   contact:
     email: yduan@u.northwestern.edu
+    
+    
+- name: Adam Goodkind
+  position: Graduate student
+  picture: 'adam.jpg'
+  background: >
+    Adam is a first-year PhD student in Department of Linguistics at Northwestern University. He is interested in computational psycholinguistics, natural language processing, machine learning and cognitive science. When not working on his research, Adam is actively searching for places in Chicago to play golf during the 9 months of winter.
+  projects:  Linguistics in Autism
+  cv: ""   #if you do have any of the following, leave as ""
+  links: "https://sites.northwestern.edu/adam/"
+  contact:
+    email: a.goodkind@u.northwestern.edu
