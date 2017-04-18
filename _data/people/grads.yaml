@@ -24,11 +24,11 @@
 
 - name: Jordan Hosier
   position: Graduate Student
-  picture: 'guy.jpeg'
+  picture: 'jordan.jpg'
   background: >
-    Jordan is a second-year PhD student in Department of Linguistics at Northwestern University.
+    Jordan is a second-year PhD student in the Department of Linguistics at Northwestern University. She is interested in the use of natural language processing models and statistical tools in the investigation of how the human brain solves problems of language comprehension, production, and acquisition. Her current research investigates the question of what type of phonetic information facilitates perceptual adaptation to foreign-accented speech.
   projects:  Accent
-  links: ""
+  links: "http://sites.northwestern.edu/jordanhosier/"
   
 - name: Yunyan Duan
   position: Graduate student
