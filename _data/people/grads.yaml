@@ -5,18 +5,18 @@
   permalink: ''
   # icon_one:
   background: >
-    Lorem ipsum dolor sit amet, consectetuer 
-    adipiscing elit. Aenean commodo ligula eget 
-    dolor. Aenean massa. Cum sociis natoque 
-    penatibus et magnis dis parturient montes, 
-    nascetur ridiculus mus. Donec quam felis, 
-    ultricies nec, pellentesque eu, pretium quis, sem. 
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula eget
+    dolor. Aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes,
+    nascetur ridiculus mus. Donec quam felis,
+    ultricies nec, pellentesque eu, pretium quis, sem.
 
   projects: >
-   Curabitur ullamcorper ultricies nisi. Nam 
+   Curabitur ullamcorper ultricies nisi. Nam
    eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
    condimentum rhoncus, sem quam semper libero, sit amet
-   adipiscing sem neque sed ipsum. 
+   adipiscing sem neque sed ipsum.
   cv: "Lee2003.pdf"   #if you do have any of the following, leave as ""
   links: "yahoo.com"
   contact:
@@ -29,7 +29,7 @@
     Jordan is a second-year PhD student in the Department of Linguistics at Northwestern University. She is interested in the use of natural language processing models and statistical tools in the investigation of how the human brain solves problems of language comprehension, production, and acquisition. Her current research investigates the question of what type of phonetic information facilitates perceptual adaptation to foreign-accented speech.
   projects:  Accent
   links: "http://sites.northwestern.edu/jordanhosier/"
-  
+
 - name: Yunyan Duan
   position: Graduate student
   picture: 'yunyan.jpg'
@@ -40,8 +40,8 @@
   links: "https://yyd27.github.io"
   contact:
     email: yduan@u.northwestern.edu
-    
-    
+
+
 - name: Adam Goodkind
   position: Graduate student
   picture: 'adam.jpg'
@@ -52,3 +52,13 @@
   links: "https://sites.northwestern.edu/adam/"
   contact:
     email: a.goodkind@u.northwestern.edu
+
+- name: Nicole Mirea
+  position: Graduate student
+  picture: 'nicole.jpg'
+  background: >
+    Nicole is a first-year PhD student in Department of Linguistics at Northwestern University. Her interests include online memory and its interactions with stored grammatical knowledge, as well as using data from language acquisition and bilingualism to probe the structure of that knowledge. In her spare time, she enjoys [getting lost](https://en.wikipedia.org/wiki/Psychogeography).
+  cv: ""
+  links: "https://nimirea.com"
+  contact:
+    email: ""
