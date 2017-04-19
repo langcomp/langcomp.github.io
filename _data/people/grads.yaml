@@ -1,3 +1,13 @@
+- name: Yunyan Duan
+  position: Graduate student
+  picture: 'yunyan.jpg'
+  background: >
+    Yunyan is a second-year PhD student in Department of Linguistics at Northwestern University. She is interested in computational psycholinguistics, reading process, and natural language processing.
+  projects:  Refixation
+  links: "https://yyd27.github.io"
+  contact:
+    email: yduan@u.northwestern.edu
+
 - name: Jordan Hosier
   position: Graduate Student
   picture: 'jordan.jpg'
@@ -6,17 +16,6 @@
   projects:  Accent Adaptation
   links: "http://sites.northwestern.edu/jordanhosier/"
 
-- name: Yunyan Duan
-  position: Graduate student
-  picture: 'yunyan.jpg'
-  background: >
-    Yunyan is a second-year PhD student in Department of Linguistics at Northwestern University. She is interested in computational psycholinguistics, reading process, and natural language processing.
-  projects:  Refixation
-  cv: ""   #if you do have any of the following, leave as ""
-  links: "https://yyd27.github.io"
-  contact:
-    email: yduan@u.northwestern.edu
-
 
 - name: Adam Goodkind
   position: Graduate student
@@ -24,7 +23,6 @@
   background: >
     Adam is a first-year PhD student in Department of Linguistics at Northwestern University. He is interested in computational psycholinguistics, natural language processing, machine learning and cognitive science. When not working on his research, Adam is actively searching for places in Chicago to play golf during the 9 months of winter.
   projects:  Linguistics in Autism
-  cv: ""   #if you do have any of the following, leave as ""
   links: "https://sites.northwestern.edu/adam/"
   contact:
     email: a.goodkind@u.northwestern.edu
@@ -34,7 +32,6 @@
   picture: 'nicole.jpg'
   background: >
     Nicole is a first-year PhD student in Department of Linguistics at Northwestern University. Her interests include online memory and its interactions with stored grammatical knowledge, as well as using data from language acquisition and bilingualism to probe the structure of that knowledge. In her spare time, she enjoys getting lost.
-  cv: ""
   links: "https://nimirea.com"
   contact:
     email: ""
