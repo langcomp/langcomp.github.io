@@ -11,17 +11,5 @@
 				<p> <strong> project: </strong>  {{person.projects}}</p>
 			</div>
 
-			<div class="cv">
-				<h5>
-				{% if person.cv != "" %}
-					<a href="assets/pdfs/{{person.cv}}">curriculum vitae</a>
-				{% endif %}
-				</h5>
-			</div>
-
-			<div class="contact">
-				<h5> 
-				<a href="mailto:{{ person.contact.email }}"> {{ person.contact.email }} </a> </h5>
-			</div>
 	</td>
 </tr>
