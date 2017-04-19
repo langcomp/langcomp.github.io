@@ -4,7 +4,6 @@
   background: >
     Jordan is a second-year PhD student in the Department of Linguistics. She is interested in the use of natural language processing models and statistical tools in the investigation of how the human brain solves problems of language comprehension, production, and acquisition. Her current research investigates the question of what type of phonetic information facilitates perceptual adaptation to foreign-accented speech.
   projects:  Accent
-  cv: ""   #if you do have any of the following, leave as ""
   links: "http://sites.northwestern.edu/jordanhosier/"
 
 - name: Yunyan Duan
