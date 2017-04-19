@@ -13,7 +13,7 @@
 
 			<div class="cv">
 				<h5>
-				{% if person.cv%}
+				{% if person.cv != "" %}
 					<a href="assets/pdfs/{{person.cv}}">curriculum vitae</a>
 				{% endif %}
 				</h5>
