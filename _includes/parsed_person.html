@@ -2,7 +2,7 @@
 	<td class ='headshot' background="assets/img/{{person.picture}}"></td>
 	<td class='info'>
 		<div class="about">
-			<h3>{{person.name}}</h3>
+			<h3><a href="{{link}}">{{person.name}}</a></h3>
 			<div class="background">
 				<p> <strong> background: </strong> {{person.background}} </p>
 			</div>
@@ -16,14 +16,6 @@
 				{% if person.cv%}
 					<a href="assets/pdfs/{{person.cv}}">curriculum vitae</a>
 				{% endif %}
-				</h5>
-			</div>
-
-			<div class="links">
-				<h5> 
-				{% for link in person.links %}
-					<a href="{{link}}"> {{link}}</a>
-				{% endfor %}
 				</h5>
 			</div>
 

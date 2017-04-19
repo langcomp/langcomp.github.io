@@ -16,7 +16,7 @@ language and computation lab website
   projects:  >
     #Name or description of current project (a sentence or 2)
   cv: ""               #string of file name in assets/pdfs
-  links:               #list of strings
+  link:               #string
   contact:
     email: 
 ~~~~
