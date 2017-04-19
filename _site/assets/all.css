@@ -83,7 +83,6 @@ table td.info { padding: 0px 15px; }
 
 #box { max-width: 100%; min-height: 45vh; margin-top: 25px; position: relative; }
 
-@media (max-width: 690px) { [id^=card] { width: 30%; height: 22%; max-width: 100px; max-height: 100px; margin-top: 10px; } }
 .opp-wrap { margin-top: 20px; margin-bottom: 20px; }
 
 .contact-column { width: 40%; display: inline-table; }
