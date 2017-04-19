@@ -15,7 +15,6 @@ language and computation lab website
     # A description of where you're coming from, your education, etc
   projects:  >
     #Name or description of current project (a sentence or 2)
-  cv: ""               #string of file name in assets/pdfs
   link:               #string
   contact:
     email: 

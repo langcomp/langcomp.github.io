@@ -4,7 +4,7 @@
   background: >
     Yunyan is a second-year PhD student in Department of Linguistics at Northwestern University. She is interested in computational psycholinguistics, reading process, and natural language processing.
   projects:  Refixation
-  links: "https://yyd27.github.io"
+  link: "https://yyd27.github.io"
   contact:
     email: yduan@u.northwestern.edu
 
@@ -14,7 +14,7 @@
   background: >
     Jordan is a second-year PhD student in the Department of Linguistics. She is interested in the use of natural language processing models and statistical tools in the investigation of how the human brain solves problems of language comprehension, production, and acquisition. Her current research investigates the question of what type of phonetic information facilitates perceptual adaptation to foreign-accented speech.
   projects:  Accent Adaptation
-  links: "http://sites.northwestern.edu/jordanhosier/"
+  link: http://sites.northwestern.edu/jordanhosier/
 
 
 - name: Adam Goodkind
@@ -23,7 +23,7 @@
   background: >
     Adam is a first-year PhD student in Department of Linguistics at Northwestern University. He is interested in computational psycholinguistics, natural language processing, machine learning and cognitive science. When not working on his research, Adam is actively searching for places in Chicago to play golf during the 9 months of winter.
   projects:  Linguistics in Autism
-  links: "https://sites.northwestern.edu/adam/"
+  link: https://sites.northwestern.edu/adam/
   contact:
     email: a.goodkind@u.northwestern.edu
 
@@ -32,6 +32,6 @@
   picture: 'nicole.jpg'
   background: >
     Nicole is a first-year PhD student in Department of Linguistics at Northwestern University. Her interests include online memory and its interactions with stored grammatical knowledge, as well as using data from language acquisition and bilingualism to probe the structure of that knowledge. In her spare time, she enjoys getting lost.
-  links: "https://nimirea.com"
+  link: https://nimirea.com
   contact:
     email: ""
