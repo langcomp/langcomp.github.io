@@ -1,21 +1,21 @@
 /*	Typography presets ------------------------------------	 */
 .gigantic, .huge, .large, .bigger, .big, h1, h2, h3, h4, h5, h6 { color: rgba(0, 0, 0, 0.7); font-weight: 400; margin: 0.33em 0em 0.33em 0em; }
 
-.gigantic { font-size: 50px; line-height: 1.09; letter-spacing: 3px; }
+.gigantic { font-size: 46px; line-height: 1.09; letter-spacing: 3px; }
 
-.huge, h1 { font-size: 30px; line-height: 1.05; letter-spacing: 2px; }
+.huge, h1 { font-size: 32px; line-height: 1.05; letter-spacing: 2px; }
 
-.large, h2 { font-size: 23px; line-height: 1.14; }
+.large, h2 { font-size: 25px; line-height: 1.14; }
 
-.bigger, h3 { font-size: 19px; line-height: 1.38; }
+.bigger, h3 { font-size: 21px; line-height: 1.38; }
 
-.big, h4 { font-size: 16px; line-height: 1.38; }
+.big, h4 { font-size: 18px; line-height: 1.38; }
 
-.small, h5 { font-size: 14px; line-height: 1.2; }
+.small, h5 { font-size: 16px; line-height: 1.2; }
 
-h6 { font-size: 13px; line-height: 1.1; }
+h6 { font-size: 15px; line-height: 1.1; }
 
-p { font-size: 12px; }
+p { font-size: 14px; }
 
 em { font-style: italic; }
 
@@ -72,7 +72,7 @@ footer .lab { float: right; }
 [id^=section] h2 { letter-spacing: 4px; padding-top: 20px; }
 
 table { padding-top: 10px; width: 100%; }
-table td.headshot { height: 266.66667px; width: 266.66667px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+table td.headshot { height: 200px; width: 200px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
 table td.info { padding: 0px 15px; }
 
 [id^=shadow] { display: none; }
