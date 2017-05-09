@@ -1,7 +1,7 @@
 - name: Klinton Bicknell
   position: Principal Investigator
   picture: 'klinton_200px.jpg'
-  background: ''
-  projects: ''
+  background:
+  projects:
   links: "http://www.klintonbicknell.com/"
   
