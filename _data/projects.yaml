@@ -36,7 +36,7 @@
      to leverage the processes that underlie language comprehension to identify phonological
      information that facilitates adaptation to foreign accented speech.
   project_link: accent.md
-  git_link: ''
+  git_link:
   
 - name: Refixation
   picture: refixation.png
@@ -46,4 +46,4 @@
   description: >
      By studying where refixations go, this study aims to address how visual information is used in word identification.
   project_link: refixation.md
-  git_link: ''
+  git_link:
