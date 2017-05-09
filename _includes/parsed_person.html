@@ -3,15 +3,23 @@
 	<td class='info'>
 		<div class="about">
 			<h3>{{person.name}}</a></h3>
+			{% if person.background %}
 			<div class="background">
 				<p> <strong> background: </strong> {{person.background}} </p>
 			</div>
+			{% endif }
 
+			{% if person.projects %}
 			<div class="projects">
 				<p> <strong> project: </strong>  {{person.projects}}</p>
 			</div>
+			{% endif %}
+
+			{% if person.link %}
 			<div class="sitelink">
 				<p> <a href="{{person.link}}">Website</a></p>
 			</div>
+			{% endif %}
+		</div>
 	</td>
 </tr>
