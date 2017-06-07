@@ -20,21 +20,8 @@
     - name: Jordan Hosier
     - name: Klinton Bicknell
   description: >
-    The difficulty associated with processing an accented speech signal
-    diminishes within the first minutes of an encounter (Bradlow & Bent, 2008).
-    Despite the many challenges posed by speech perception and accent adaptation,
-    and the ease with which humans accomplish such tasks, there exist few cognitive
-    models of adaptation. This project investigates the question of what type of
-    phonetic information facilitates adaptation to foreign-accented speech.
-    In this work, the task of accent adaptation is represented as a problem of
-    Bayesian inference, in which speakers use prior knowledge—about speakers,
-    specific accents, and foreign accented speech more generally—to make predictions
-    about novel talkers, thus aiding in more rapid adaptation. This process of generalization
-    can be represented hierarchically and allows for generalizations at multiple levels
-    (e.g., word, segment, etc.). The goal of this work is to investigate and identify what
-     sort of learning takes place during accent adaptation. Further, this project seeks
-     to leverage the processes that underlie language comprehension to identify phonological
-     information that facilitates adaptation to foreign accented speech.
+    With adequate experience, listeners improve in their ability to comprehend accented speech. Previous work demonstrates that listeners who adapt to one accented speaker generalize that adaptation to other accented speakers— exposure to multiple speakers of the same accent facilitates comprehension of a novel talker of that accent (Bradlow and Bent, 2008) and exposure to multiple novel accents facilitates comprehension of yet another novel accent (Baese-Berk et al., 2013). Here we propose a model of accent adaptation in which this task is represented as a problem of hierarchical Bayesian inference. We show that the model predicts qualitative patterns seen in the previously mentioned work. Model results further suggest that adaptation happens at the segment level rather than the word level. These findings support a view of accent adaptation as hierarchical inference and demonstrate that a formal model of accent adaptation in this framework can tease apart competing hypotheses about the level of linguistic specification at which this adaptation occurs.
+
   project_link: accent.md
   git_link:
   
