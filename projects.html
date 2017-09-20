@@ -1,31 +1,39 @@
 ---
 layout: default
 ---
-<!-- {% assign num = 0 %} -->
 
 {% assign length = (site.data.projects | size) %}
 {% for i in (0..{{length}}) %}
 	{% assign proj = site.data.projects[i] %}
-	{% assign source = 'shadow-' | append: {{i}} %}
-	<div id="card-{{i}}" style = "background-image:url(/assets/img/{{proj.picture}})"
-		onclick="replaceContentInContainer('box', '{{source}}' )">
-	</div>
+    {% if proj.name %}
+        {% assign source = 'shadow-' | append: {{i}} %}
+        <div id="cwrap">
+            <div id="ctitle"><h4><b>{{proj.name}}</b></h4></div>
+            <div id="card-{{i}}"
+                 style = "background-image:url(/assets/img/{{proj.picture}})"
+                 onclick="replaceContentInContainer('box', '{{source}}' )"></div>
+        </div>
+
+    {% endif %}
 
 {% endfor %}
 
 {% for i in (0..{{length}}) %}
 	{% assign proj = site.data.projects[i] %}
-	<div id="shadow-{{i}}">
-		<div class="gigantic"> {{proj.name}} </div>
-		<h3> {{ proj.description }} </h3>
-		{% if proj.project_link%}
-		<a href="project_pages/{{proj.project_link}}"> learn more</a> <br>
-		{% endif %}
-		{% if proj.git_link%}
-		<a href= "{(proj.git_link}}"> associated git repo </a>
-		{% endif %}
-	</div>
+    {% if proj.name %}
+            <div id="shadow-{{i}}">
+                <div class="gigantic"> {{proj.name}} </div>
+                <p> {{ proj.description }} </p>
+                {% if proj.project_link %}
+                    <a href="project_pages/{{proj.project_link}}"> learn more</a> <br>
+                {% endif %}
+                {% if proj.git_link%}
+                    <a href= "{(proj.git_link}}"> associated git repo </a>
+                {% endif %}
+            </div>
+    {% endif %}
 {% endfor %}
+
 <div id="box">
 </div>
 
