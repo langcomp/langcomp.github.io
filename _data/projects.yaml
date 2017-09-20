@@ -1,0 +1,36 @@
+- name: Gabor
+  picture: filter2D.jpeg
+  researchers: 
+    - name: Cary Murray
+      email: carolynmurray2017@u.northwestern.edu
+  description: >
+    As an individual reads, visual information is being collected each word's identity from the letters on the page.
+    Current models of (visual) letter recognition account for either letter order effects or perceptual similarity
+    effects. Here, we aim to model human visual letter recognition by incorporating known neuro-biological shape/form
+    response profiles of the primary visual cortex. Gabor-based wavelet convolution, a computer vision technique,
+    successfully performs object recognition and is a candidate for capturing human-like letter order and perceptual
+    similarity effects. This technique extracts higher-level features of an image using kernels with response patterns
+    mimicking simple cells of the primary visual cortex.
+  project_link: gabors.md
+  git_link: 'https://github.com/langcomp/gabors'
+
+- name: Accent Adaptation
+  picture: accent.jpg
+  researchers: 
+    - name: Jordan Hosier
+    - name: Klinton Bicknell
+  description: >
+    With adequate experience, listeners improve in their ability to comprehend accented speech. Previous work demonstrates that listeners who adapt to one accented speaker generalize that adaptation to other accented speakers— exposure to multiple speakers of the same accent facilitates comprehension of a novel talker of that accent (Bradlow and Bent, 2008) and exposure to multiple novel accents facilitates comprehension of yet another novel accent (Baese-Berk et al., 2013). Here we propose a model of accent adaptation in which this task is represented as a problem of hierarchical Bayesian inference. We show that the model predicts qualitative patterns seen in the previously mentioned work. Model results further suggest that adaptation happens at the segment level rather than the word level. These findings support a view of accent adaptation as hierarchical inference and demonstrate that a formal model of accent adaptation in this framework can tease apart competing hypotheses about the level of linguistic specification at which this adaptation occurs.
+
+  project_link: accent.md
+  git_link:
+  
+- name: Refixation
+  picture: refixation.png
+  researchers: 
+    - name: Yunyan Duan
+    - name: Klinton Bicknell
+  description: >
+     By studying where refixations go, this study aims to address how visual information is used in word identification.
+  project_link: refixation.md
+  git_link:
