@@ -19,8 +19,7 @@
   researchers: 
     - name: Jordan Hosier
     - name: Klinton Bicknell
-  description: >
-With adequate experience, listeners improve their ability to comprehend accented speech. Previous work demonstrates that listeners who adapt to one accented talker generalize that adaptation to other accented talkers - exposure to multiple talkers of the same accent facilitates comprehension of a novel talker of that accent (Bradlow & Bent, 2008) and exposure to multiple novel accents facilitates comprehension of yet another novel accent(Baese-Berk, Bradlow, & Wright, 2013). This project introduces a model of accent adaptation in which the task of accent adaptation is represented as a problem of hierarchical Bayesian inference, which assumes that listeners simultaneously learn about the distribution of talkers, accent groups, and accented speech more generally.
+  description: With adequate experience, listeners improve their ability to comprehend accented speech. Previous work demonstrates that listeners who adapt to one accented talker generalize that adaptation to other accented talkers - exposure to multiple talkers of the same accent facilitates comprehension of a novel talker of that accent (Bradlow & Bent, 2008) and exposure to multiple novel accents facilitates comprehension of yet another novel accent(Baese-Berk, Bradlow, & Wright, 2013). This project introduces a model of accent adaptation in which the task of accent adaptation is represented as a problem of hierarchical Bayesian inference, which assumes that listeners simultaneously learn about the distribution of talkers, accent groups, and accented speech more generally.
   project_link: accent.md
   git_link:
   
